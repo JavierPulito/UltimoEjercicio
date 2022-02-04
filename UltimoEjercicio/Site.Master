@@ -63,6 +63,7 @@
             <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Pasar Pagina 2" />
             </footer>
         </div>
 

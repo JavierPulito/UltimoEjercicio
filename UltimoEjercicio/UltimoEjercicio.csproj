@@ -168,6 +168,10 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
+    <Content Include="View\pagina2.aspx" />
+    <Content Include="View\paginaBorrar.aspx" />
+    <Content Include="View\paginaCrear.aspx" />
+    <Content Include="View\paginaEditar.aspx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Site.Mobile.Master" />
@@ -210,15 +214,45 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="View\pagina2.aspx.cs">
+      <DependentUpon>pagina2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\pagina2.aspx.designer.cs">
+      <DependentUpon>pagina2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\paginaBorrar.aspx.cs">
+      <DependentUpon>paginaBorrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\paginaBorrar.aspx.designer.cs">
+      <DependentUpon>paginaBorrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\paginaCrear.aspx.cs">
+      <DependentUpon>paginaCrear.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\paginaCrear.aspx.designer.cs">
+      <DependentUpon>paginaCrear.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\paginaEditar.aspx.cs">
+      <DependentUpon>paginaEditar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\paginaEditar.aspx.designer.cs">
+      <DependentUpon>paginaEditar.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
